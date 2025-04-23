@@ -29,6 +29,7 @@ _A list of my commonly used Git commands_
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 | `git rm [file-name.txt]` | Remove a file |
+| `git rm -r --cached <foldername>` | To stop tracking a folder in Git but keep it locally|
 | `git rm --cached file-name.txt` | To stop tracking a file in Git but keep it locally |
 
 ### Branching & Merging

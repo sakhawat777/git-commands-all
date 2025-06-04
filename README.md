@@ -51,6 +51,7 @@ _A list of my commonly used Git commands_
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
+| `git rebase main` | Re-applies your current branch’s commits on top of the latest main branch — for a cleaner, linear history |
 
 ### Sharing & Updating Projects
 

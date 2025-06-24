@@ -76,3 +76,14 @@ Git Commands
 | `git diff` | Unstaged changes |
 | `git diff --staged` | Staged changes |
 | `git diff main feature` | Differences between branches |
+
+
+### Undo Staged and Working Changes
+
+| Command | Description |
+| ------- | ----------- |
+| `git restore --staged file.txt` | Unstage |
+| `git restore --staged <file1> <file2> ...` | unstages one or more files that were previously added to the staging area |
+| `git restore file.txt` | Discard working changes |
+
+

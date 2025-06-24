@@ -90,4 +90,5 @@ Git Commands
 | `git restore file.txt` | Discard working changes |
 | `git reset --soft HEAD~1` | Moves HEAD to the previous commit and keeps all changes staged for a new commit (affect local) |
 | `git reset --hard HEAD~1` | Moves HEAD back one commit, deletes changes permanently from staging and working directory unless recovered via git reflog (affect local) |
+| `git push origin your-branch --force` | Forcefully pushes your local branch to the remote, overwriting remote history and potentially overwriting others’ work. |
 

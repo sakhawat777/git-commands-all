@@ -93,4 +93,5 @@ Git Commands
 | `git reset --hard HEAD~1` | Moves HEAD back one commit, deletes changes permanently from staging and working directory unless recovered via git reflog (affect local) |
 | `git push origin your-branch --force` | Forcefully pushes your local branch to the remote, overwriting remote history and potentially overwriting others’ work |
 | `git push origin -f` | Forcibly pushes the current branch to origin, overwriting remote changes |
+| `git clean -f` | Removes untracked files from your working directory |
 

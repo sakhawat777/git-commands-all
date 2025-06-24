@@ -79,3 +79,11 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Shows Differences between Commits, Branches, or Working Directory vs Staged
+
+| Command | Description |
+| ------- | ----------- |
+| `git diff` | Unstaged changes |
+| `git diff --staged` | Staged changes |
+| `git diff main feature` | Differences between branches |

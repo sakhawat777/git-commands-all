@@ -16,6 +16,7 @@ Git Commands
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
+| `git commit --amend` | This will update the previous commit with the currently staged changes |
 | `git rm -r [folder-name]` | Remove a folder (or file) |
 | `git rm [file-name.txt]` | Remove a file |
 | `git rm -r --cached [folder-name]` | To stop tracking a folder in Git but keep it locally|

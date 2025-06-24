@@ -85,6 +85,6 @@ Git Commands
 | `git restore --staged file.txt` | Unstage |
 | `git restore --staged <file1> <file2> ...` | unstages one or more files that were previously added to the staging area |
 | `git restore file.txt` | Discard working changes |
-| `git reset --soft HEAD~1` | Moves your local HEAD back by one commit(affect local) |
+| `git reset --soft HEAD~1` | Moves your local HEAD back by one commit (affect local) |
 
 

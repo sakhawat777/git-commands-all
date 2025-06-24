@@ -89,6 +89,7 @@ Git Commands
 | `git restore --staged <file1> <file2> ...` | unstages one or more files that were previously added to the staging area |
 | `git restore file.txt` | Discard working changes |
 | `git reset --soft HEAD~1` | Moves HEAD to the previous commit and keeps all changes staged for a new commit (affect local) |
+| `git reset --soft HEAD~3` | Moves HEAD back by 3 commits, keeping all changes staged for recommit (affect local) |
 | `git reset --hard HEAD~1` | Moves HEAD back one commit, deletes changes permanently from staging and working directory unless recovered via git reflog (affect local) |
 | `git push origin your-branch --force` | Forcefully pushes your local branch to the remote, overwriting remote history and potentially overwriting others’ work |
 | `git push origin -f` | Forcibly pushes the current branch to origin, overwriting remote changes |

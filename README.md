@@ -89,8 +89,5 @@ Git Commands
 | `git restore --staged <file1> <file2> ...` | unstages one or more files that were previously added to the staging area |
 | `git restore file.txt` | Discard working changes |
 | `git reset --soft HEAD~1` | Moves your local HEAD back by one commit (affect local) |
-| `git reset --hard HEAD~1` | Moves HEAD to the previous commit.
-Removes the last commit.
-Discards all changes from both the staging area and working directory.
-The changes are permanently lost unless recovered with git reflog. |
+| `git reset --hard HEAD~1` | Moves HEAD back one commit, deletes changes permanently from staging and working directory unless recovered via git reflog |
 

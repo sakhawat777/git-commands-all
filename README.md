@@ -110,6 +110,7 @@ Git Commands
 | `git push origin -f` | Forcibly pushes the current branch to origin, overwriting remote changes |
 | `git clean -f` | Removes untracked files from your working directory |
 | `git clean -fd` | Permanently removes all untracked files and directories from your working directory |
+| `git clean -fdn` | This will show you what will be deleted without actually deleting it |
 
 
 ### Git Cherry-Pick Commands

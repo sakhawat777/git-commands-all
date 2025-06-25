@@ -131,3 +131,16 @@ Git Commands
 | ------- | ----------- |
 | `git reflog` | Shows a log of all changes to HEAD (great for recovering lost commits) |
 | `git reset HEAD@{1}` | Reset to the previous state using reflog |
+
+
+### General Rollback Steps
+
+| Command | Description |
+| ---------- 1st Way--------- |
+| `git log --oneline` | Check your commit history|
+| `git revert <commit-hash>` | git revert <commit> — Best for Shared/Remote Branches |
+| `git push origin main` | Rolling back changes on branches others are using (e.g., main, develop) |
+| ---------- 2nd Way--------- |
+| `git log --oneline` | Check your commit history|
+| `git reset --soft <commit-hash>` | Rollback but keep changes staged (soft reset) |
+| `git push origin <branch-name> --force` | If you already pushed the commits and want to update the remote branch (force push needed) |

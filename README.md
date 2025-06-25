@@ -124,6 +124,15 @@ Git Commands   --------------- Author: Md. Sakhawat Hossain
 | `git clean -fx` | Forcefully removes all untracked files, including files ignored by .gitignore, from your working directory |
 
 
+### Git config commands
+
+| Command | Description |
+| ------- | ----------- |
+| `git config --list` | List current config |
+| `git config user.name "Your Name"` | Set username locally |
+| `git config user.email "email@example.com"` | Set email locally |
+
+
 ### Tag Commands
 
 | Command | Description |

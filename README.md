@@ -44,6 +44,7 @@ Git Commands
 | `git merge --abort` | Aborts the current merge process and resets the working directory to the state before the merge started |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash apply` | Applies the most recent stash without deleting it |
+| `git stash list` | Lists all stashed changes |
 | `git stash clear` | Remove all stashed entries |
 | `git rebase main` | Re-applies your current branch’s commits on top of the latest main branch — for a cleaner, linear history |
 | `git rebase --abort` | Abort a rebase (if conflicts go wrong) |

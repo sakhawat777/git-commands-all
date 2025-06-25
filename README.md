@@ -36,6 +36,8 @@ Git Commands
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
 | `git branch -m [old branch name] [new branch name]` | Rename a local branch |
 | `git checkout [branch name]` | Switch to a branch |
+| `git checkout <commit-hash>` | View specific commit in detached HEAD mode |
+| `git checkout -b bugfix 4f3d2a1` | Creates and switches to branch bugfix starting from commit 4f3d2a1 |
 | `git switch [branch name]` | Switch to a branch |
 | `git checkout -` | Switch to the branch last checked out |
 | `git checkout -- [file-name.txt]` | Discard changes to a file |

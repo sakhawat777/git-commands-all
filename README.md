@@ -105,3 +105,13 @@ Git Commands
 | `git push origin -f` | Forcibly pushes the current branch to origin, overwriting remote changes |
 | `git clean -f` | Removes untracked files from your working directory |
 
+
+### Git Cherry-Pick Commands
+
+| Command | Description |
+| ------- | ----------- |
+| `git cherry-pick <commit-hash>` | Applies the given commit to the current branch |
+| `git cherry-pick <commit1> <commit2> ...` | Applies multiple commits in order to your current branch |
+| `git cherry-pick <start-commit>^..<end-commit>` | Applies a continuous sequence of commits from start-commit (inclusive) to end-commit |
+| `git cherry-pick --abort | Cancels the cherry-pick if a conflict occurs, restoring the branch to its previous state |
+| `git cherry-pick --continue` | After resolving conflicts, this finalizes the cherry-pick |

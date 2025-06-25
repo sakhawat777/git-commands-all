@@ -1,4 +1,4 @@
-Git Commands
+Git Commands   ---- author Md. Sakhawat Hossain
 ============
 
 ### Getting & Creating Projects

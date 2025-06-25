@@ -108,6 +108,7 @@ Git Commands
 | `git reset --hard HEAD~3` | Completely deletes the last 3 commits and discards all related changes from working directory and staging area (affect local) |
 | `git push origin your-branch --force` | Forcefully pushes your local branch to the remote, overwriting remote history and potentially overwriting others’ work |
 | `git push origin -f` | Forcibly pushes the current branch to origin, overwriting remote changes |
+| `git clean -f folder/` | Delete untracked files in the folder |
 | `git clean -f` | Removes untracked files from your working directory |
 | `git clean -fd` | Permanently removes all untracked files and directories from your working directory |
 | `git clean -fdn` | This will show you what will be deleted without actually deleting it |

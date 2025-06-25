@@ -111,6 +111,7 @@ Git Commands
 | `git clean -f` | Removes untracked files from your working directory |
 | `git clean -fd` | Permanently removes all untracked files and directories from your working directory |
 | `git clean -fdn` | This will show you what will be deleted without actually deleting it |
+| `git clean -fx` | Forcefully removes all untracked files, including files ignored by .gitignore, from your working directory |
 
 
 ### Git Cherry-Pick Commands

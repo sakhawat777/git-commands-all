@@ -87,7 +87,7 @@ Git Commands
 | `git diff main feature` | Differences between branches |
 
 
-### Undo Staged and Working Changes
+### Undo Local Changes, Reset History, and Clean Working Directory
 
 | Command | Description |
 | ------- | ----------- |

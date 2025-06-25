@@ -116,3 +116,5 @@ Git Commands
 | `git cherry-pick --abort | Cancels the cherry-pick if a conflict occurs, restoring the branch to its previous state |
 | `git cherry-pick --continue` | After resolving conflicts, this finalizes the cherry-pick |
 | `git cherry-pick --skip` | Skips the commit if you don’t want to apply it due to conflict or irrelevance |
+| `git cherry-pick -e <commit-hash>` | Lets you edit the commit message during the cherry-pick |
+| `git cherry-pick -n <commit-hash>` | Applies the changes from the commit but leaves them staged (not committed) |

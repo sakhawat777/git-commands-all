@@ -109,6 +109,7 @@ Git Commands
 | `git push origin your-branch --force` | Forcefully pushes your local branch to the remote, overwriting remote history and potentially overwriting others’ work |
 | `git push origin -f` | Forcibly pushes the current branch to origin, overwriting remote changes |
 | `git clean -f` | Removes untracked files from your working directory |
+| `git clean -fd` | Permanently removes all untracked files and directories from your working directory |
 
 
 ### Git Cherry-Pick Commands

@@ -115,6 +115,21 @@ Git Commands
 | `git clean -fx` | Forcefully removes all untracked files, including files ignored by .gitignore, from your working directory |
 
 
+### Tag Commands
+
+| Command | Description |
+| ------- | ----------- |
+| `git tag`| Shows all tags in the repository |
+| `git tag v1.0.0` | Creates a tag named v1.0.0 on the current HEAD commit |
+| `git tag -a v1.0.0 -m "Release version 1.0.0` |  Creates a tag with metadata like tagger name, date, and a message. Recommended for releases |
+| `git tag -a v1.0.0 abc1234 -m "Tagging old commit"` | Tags commit abc1234 with v1.0.0 |
+| `git show v1.0.0` | Displays info about the tag and the commit it points to |
+| `git push origin v1.0.0` | Remove a folder (or file) |
+| `git rm [file-name.txt]` | Remove a file |
+| `git rm -r --cached [folder-name]` | To stop tracking a folder in Git but keep it locally|
+| `git rm --cached [file-name.txt]` | To stop tracking a file in Git but keep it locally |
+
+
 ### Git Cherry-Pick Commands
 
 | Command | Description |

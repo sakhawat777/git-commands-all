@@ -134,6 +134,7 @@ Git Commands
 
 
 ### General Rollback Steps
+| Command | Description |
 | ------- | ----------- |
 | `git log --oneline` | Check your commit history|
 | `git revert <commit-hash>` | git revert <commit> — Best for Shared/Remote Branches |

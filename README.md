@@ -133,6 +133,13 @@ Git Commands   --------------- Author: Md. Sakhawat Hossain
 | `git config user.email "email@example.com"` | Set email locally |
 
 
+### Git blame commands
+
+| Command | Description |
+| ------- | ----------- |
+| `git blame <file>` | Shows line-by-line author info for a file |
+
+
 ### Tag Commands
 
 | Command | Description |

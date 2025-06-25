@@ -1,4 +1,4 @@
-Complete Git Commands Solutions  ------ Author: Md. Sakhawat Hossain
+Complete Git Commands Solutions: Author: Md. Sakhawat Hossain
 ============
 
 ### Getting & Creating Projects

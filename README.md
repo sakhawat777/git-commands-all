@@ -63,6 +63,7 @@ Git Commands
  `git remote add admin ssh://git@github.com/[username]/[repository-name].git` | Adds a new remote repository named admin |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
 | `git remote remove origin` | Removes the remote named origin from your Git repository configuration |
+| `git remote rename origin upstream` | Renames remote origin to upstream |
 | `git fetch origin main` | Fetch latest from remote main |
 | `git fetch --all` | Fetch all remotes |
 

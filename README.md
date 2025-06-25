@@ -14,6 +14,7 @@ Complete Git Commands Solutions: Author: Md. Sakhawat Hossain
 | ------- | ----------- |
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
+| `git add .` | Adds all changed (new or modified) files in the current directory and subdirectories to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git commit --amend` | This will update the previous commit with the currently staged changes |

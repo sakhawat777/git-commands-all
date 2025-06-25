@@ -94,7 +94,9 @@ Git Commands   --------------- Author: Md. Sakhawat Hossain
 | `git diff` | Unstaged changes |
 | `git diff --staged` | Staged changes |
 | `git diff main feature` | Differences between branches |
-
+| `git diff --name-only` | Show only filenames that changed |
+| `git diff --stat` |  Show summary stats of changes |
+| `git diff <commit1> <commit2> -- <file>` | Diff for a specific file between commits |
 
 ### Undo Local Changes, Reset History, and Clean Working Directory
 

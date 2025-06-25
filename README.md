@@ -54,6 +54,7 @@ Git Commands   --------------- Author: Md. Sakhawat Hossain
 | `git rebase main` | Re-applies your current branch’s commits on top of the latest main branch — for a cleaner, linear history |
 | `git rebase --abort` | Abort a rebase (if conflicts go wrong) |
 | `git rebase --continue` | Resumes the rebase process after resolving conflicts from a previous commit during rebase |
+| `git rebase -i HEAD~3` |  Interactively edit, reorder, squash the last 3 commits |
 
 ### Sharing & Updating Projects
 

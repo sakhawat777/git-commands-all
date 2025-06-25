@@ -115,3 +115,4 @@ Git Commands
 | `git cherry-pick <start-commit>^..<end-commit>` | Applies a continuous sequence of commits from start-commit (inclusive) to end-commit |
 | `git cherry-pick --abort | Cancels the cherry-pick if a conflict occurs, restoring the branch to its previous state |
 | `git cherry-pick --continue` | After resolving conflicts, this finalizes the cherry-pick |
+| `git cherry-pick --skip` | Skips the commit if you don’t want to apply it due to conflict or irrelevance |

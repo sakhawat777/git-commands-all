@@ -153,6 +153,12 @@ Git Commands
 | `git reset --soft HEAD~1` | Best for Rewriting Commits |
 | `git commit -m "Better commit message` | Rewording or squashing recent commits before pushing |
 | `git push origin <branch-name> --force` | If you already pushed the commits and want to update the remote branch (force push needed) |
+| 5th Way | Rollback and keep changes unstaged (mixed reset, default) |
+| `git log --oneline` | Check your commit history|
+| `git reset --mixed <commit-hash>` | Undo commits and keep changes in your working directory but unstaged |
+| `git add .` | Adds **all modified and new files** in the current directory (and subdirectories) to the staging area |
+| `git commit -m "Revised commit after rollback"` | Create a new commit |
+| `git push origin <branch-name> --force` | If you already pushed the commits and want to update the remote branch (force push needed) |
 
 
 | Golden Rule: | Use revert on shared/public branches. Use reset only when you understand the risks and coordinate with your team |

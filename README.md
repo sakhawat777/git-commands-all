@@ -142,3 +142,6 @@ Git Commands
 | `git log --oneline` | Check your commit history|
 | `git reset --soft <commit-hash>` | Rollback but keep changes staged (soft reset) |
 | `git push origin <branch-name> --force` | If you already pushed the commits and want to update the remote branch (force push needed) |
+| `git log --oneline` | Check your commit history|
+| `git reset --hard <commit>` | Best for Solo Projects / Local Rollback |
+| `git push origin <branch-name> --force` | If you already pushed the commits and want to update the remote branch (force push needed) |

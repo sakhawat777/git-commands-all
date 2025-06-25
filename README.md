@@ -124,7 +124,7 @@ Git Commands   --------------- Author: Md. Sakhawat Hossain
 | `git clean -fx` | Forcefully removes all untracked files, including files ignored by .gitignore, from your working directory |
 
 
-### Git config commands
+### Git Config Commands
 
 | Command | Description |
 | ------- | ----------- |
@@ -133,11 +133,19 @@ Git Commands   --------------- Author: Md. Sakhawat Hossain
 | `git config user.email "email@example.com"` | Set email locally |
 
 
-### Git blame commands
+### Git Blame Commands
 
 | Command | Description |
 | ------- | ----------- |
 | `git blame <file>` | Shows line-by-line author info for a file |
+
+
+### Git Archive With Prefix Commands
+
+| Command | Description |
+| ------- | ----------- |
+| `git archive --prefix=project-v1/ -o project-v1.zip v1.0.0` | Create archive with folder prefix |
+
 
 
 ### Tag Commands

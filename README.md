@@ -78,6 +78,7 @@ Git Commands   --------------- Author: Md. Sakhawat Hossain
 | `git fetch origin` | Downloads commits, branches, and tags from origin without merging |
 | `git fetch origin main` | Fetch latest from remote main |
 | `git fetch --all` | Fetch all remotes |
+| `git fetch --prune` | Remove remote-tracking references that no longer exist on remote |
 
 ### Inspection & Comparison
 

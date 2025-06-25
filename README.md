@@ -140,12 +140,15 @@ Git Commands
 | `git log --oneline` | Check your commit history|
 | `git revert <commit-hash>` | git revert <commit> — Best for Shared/Remote Branches |
 | `git push origin main` | Rolling back changes on branches others are using (e.g., main, develop) |
+| 2nd Way | Rollback but keep changes staged (soft reset) |
 | `git log --oneline` | Check your commit history|
 | `git reset --soft <commit-hash>` | Rollback but keep changes staged (soft reset) |
 | `git push origin <branch-name> --force` | If you already pushed the commits and want to update the remote branch (force push needed) |
+| 3rd Way | Best for Solo Projects / Local Rollback |
 | `git log --oneline` | Check your commit history|
 | `git reset --hard <commit>` | Best for Solo Projects / Local Rollback |
 | `git push origin <branch-name> --force` | If you already pushed the commits and want to update the remote branch (force push needed) |
+| 4th Way | Best for Rewriting Commits |
 | `git log --oneline` | Check your commit history|
 | `git reset --soft HEAD~1` | Best for Rewriting Commits |
 | `git commit -m "Better commit message` | Rewording or squashing recent commits before pushing |

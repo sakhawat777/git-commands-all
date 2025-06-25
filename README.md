@@ -124,10 +124,13 @@ Git Commands
 | `git tag -a v1.0.0 -m "Release version 1.0.0` |  Creates a tag with metadata like tagger name, date, and a message. Recommended for releases |
 | `git tag -a v1.0.0 abc1234 -m "Tagging old commit"` | Tags commit abc1234 with v1.0.0 |
 | `git show v1.0.0` | Displays info about the tag and the commit it points to |
-| `git push origin v1.0.0` | Remove a folder (or file) |
-| `git rm [file-name.txt]` | Remove a file |
-| `git rm -r --cached [folder-name]` | To stop tracking a folder in Git but keep it locally|
-| `git rm --cached [file-name.txt]` | To stop tracking a file in Git but keep it locally |
+| `git push origin v1.0.0` | Uploads only v1.0.0 tag to the remote repo |
+| `git push origin --tags` | Pushes all local tags to the remote repository |
+| `git tag -d v1.0.0` | Deletes the tag from your local repository |
+| `git push origin --delete tag v1.0.0` | Deletes the tag from the remote repository |
+| `git checkout v1.0.0` | Checks out the tagged version in detached HEAD mode. You’re not on a branch |
+| `git checkout -b hotfix v1.0.0` | Creates and switches to a new branch hotfix from the v1.0.0 tag |
+| `git archive --format=zip --output=v1.0.0.zip v1.0.0` | Creates a zip of the code as it was at the tagged version |
 
 
 ### Git Cherry-Pick Commands

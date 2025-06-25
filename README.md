@@ -87,6 +87,7 @@ Git Commands   --------------- Author: Md. Sakhawat Hossain
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git log --graph --oneline --decorate --all` | Pretty graph of commit history |
 
 ### Shows Differences between Commits, Branches, or Working Directory vs Staged
 

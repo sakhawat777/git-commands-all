@@ -48,6 +48,8 @@ Git Commands   --------------- Author: Md. Sakhawat Hossain
 | `git stash apply` | Applies the most recent stash without deleting it |
 | `git stash list` | Lists all stashed changes |
 | `git stash drop` | Deletes a specific stash |
+| `git stash pop` | Applies the latest stash and removes it from the stash list |
+| `git stash branch <branchname>` | Creates a branch from a stash and applies it |
 | `git stash clear` | Remove all stashed entries |
 | `git rebase main` | Re-applies your current branch’s commits on top of the latest main branch — for a cleaner, linear history |
 | `git rebase --abort` | Abort a rebase (if conflicts go wrong) |

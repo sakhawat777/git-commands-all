@@ -41,6 +41,7 @@ Git Commands
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
+| `git merge --abort` | Aborts the current merge process and resets the working directory to the state before the merge started |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 | `git rebase main` | Re-applies your current branch’s commits on top of the latest main branch — for a cleaner, linear history |

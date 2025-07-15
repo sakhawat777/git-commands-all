@@ -80,6 +80,7 @@ Complete Git Commands Solutions: Author: Md. Sakhawat Hossain
 | `git checkout upstream/main` | Switches your local working directory to the upstream branch. Note that you cannot directly commit to this branch |
 | `git fetch origin` | Downloads commits, branches, and tags from origin without merging |
 | `git remote rename origin upstream` | Renames remote origin to upstream |
+| `git remote remove upstream` | Removes the upstream remote link from your local Git configuration |
 | `git fetch origin main` | Fetch latest from remote main |
 | `git fetch --all` | Fetch all remotes |
 | `git fetch --prune` | Remove remote-tracking references that no longer exist on remote |

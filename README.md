@@ -75,8 +75,11 @@ Complete Git Commands Solutions: Author: Md. Sakhawat Hossain
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
 | `git remote remove origin` | Removes the remote named origin from your Git repository configuration |
 | `git remote set-url --delete origin git@github.com/user/repo1.git` | Remove one specific URL |
-| `git remote rename origin upstream` | Renames remote origin to upstream |
+| `git remote add upstream https://github.com/original-user/original-repo.git` | Adds the original repository as a remote called upstream to your local repository |
+| `git fetch upstream` | Downloads the latest changes from the upstream repository, including all branches |
+| `git checkout upstream/main` | Switches your local working directory to the upstream branch. Note that you cannot directly commit to this branch |
 | `git fetch origin` | Downloads commits, branches, and tags from origin without merging |
+| `git remote rename origin upstream` | Renames remote origin to upstream |
 | `git fetch origin main` | Fetch latest from remote main |
 | `git fetch --all` | Fetch all remotes |
 | `git fetch --prune` | Remove remote-tracking references that no longer exist on remote |

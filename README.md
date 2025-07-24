@@ -194,6 +194,16 @@ Complete Git Commands Solutions: Author: Md. Sakhawat Hossain
 | `git reflog` | Shows a log of all changes to HEAD (great for recovering lost commits) |
 | `git reset HEAD@{1}` | Reset to the previous state using reflog |
 
+### Essential Git Commands for Managing Local Changes and Ignoring Files
+
+| Command | Description |
+| ------- | ----------- |
+| `git update-index --assume-unchanged .gitlab-ci.yml deploy.log` | Temporarily ignore any changes made to .gitlab-ci.yml and deploy.log in your local working directory |
+| `git update-index --no-assume-unchanged <file>` | Undo the effect of --assume-unchanged, so Git tracks changes again |
+| `git ls-files -v | grep '^h'` | Helpful to see which files are being ignored with --assume-unchanged |
+| `echo "file.txt" >> .gitignore` | Appends file.txt to .gitignore to tell Git to ignore this file in future commits |
+
+
 
 ### General Rollback Steps
 | Command | Description |

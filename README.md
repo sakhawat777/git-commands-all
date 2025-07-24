@@ -200,7 +200,7 @@ Complete Git Commands Solutions: Author: Md. Sakhawat Hossain
 | ------- | ----------- |
 | `git update-index --assume-unchanged .gitlab-ci.yml deploy.log` | Temporarily ignore any changes made to .gitlab-ci.yml and deploy.log in your local working directory |
 | `git update-index --no-assume-unchanged <file>` | Undo the effect of --assume-unchanged, so Git tracks changes again |
-| `git ls-files -v | grep '^h'` | Helpful to see which files are being ignored with --assume-unchanged |
+| `git ls-files -v` | Lists all Git-tracked files with a prefix showing their status — e.g., h for files marked as --assume-unchanged, M for modified, and space for clean. |
 | `echo "file.txt" >> .gitignore` | Appends file.txt to .gitignore to tell Git to ignore this file in future commits |
 
 

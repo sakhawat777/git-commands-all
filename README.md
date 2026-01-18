@@ -13,7 +13,7 @@ Complete Git Commands Solutions: Author: Md. Sakhawat Hossain
 | Command | Description |
 | ------- | ----------- |
 | `git status` | Check status |
-| `git add [file-name.txt]` | Add a file to the staging area |
+| `git add [file-name.txt]` | Add a file to the staging area |git merge
 | `git add .` | Adds all changed (new or modified) files in the current directory and subdirectories to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
@@ -44,6 +44,7 @@ Complete Git Commands Solutions: Author: Md. Sakhawat Hossain
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
+| `git merge --continue` | Resumes and completes an interrupted merge after you resolve conflicts and stage the fixed files |
 | `git merge --abort` | Aborts the current merge process and resets the working directory to the state before the merge started |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash apply` | Applies the most recent stash without deleting it |
